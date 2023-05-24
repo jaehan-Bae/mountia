@@ -1,0 +1,87 @@
+header
+  .header-inner
+    .info-contents
+      .info
+        a*5
+    .header-contents
+      .header-left
+        .logo>img
+      .header-right
+        .info-btn>a*3
+        input
+  .gnb>a*8
+
+  section.main
+    .main-inner
+      .main-img
+
+  section.item
+    .item-inner
+      .item-top
+        .item-left
+          .item-head>h2
+          .item-list>h4*3
+        .item-right
+          .item-contents
+            .item-con
+              .item-img>img
+              .item-desc>p
+      .item-bottom
+        .item-contents2
+          img*3
+
+  section.advertise
+    .advertise-inner>img
+
+    section.style
+    .style-inner
+      .style-top
+        .style-left
+          .style-head>h2
+          .style-list>h4*3
+        .style-right
+          .style-con
+            .style-img>img
+            .style-desc>p
+      .style-bottom
+        img*3
+
+  section.banner
+    .banner-inner
+      .banner-left
+        img*2
+      .banner-right
+        img
+
+  section.locate
+    .locate-inner
+      .locate-contents
+        .locate-left
+        .locate-right
+  section.notice
+    .notice-contents
+      .notice-inner
+        .notice-left>sapn,p
+        .notice-right>p
+
+  footer
+    .footer-inner
+      .footer-top
+        .footer-left
+          .footer-con
+            ul>li*11 (+3)
+        .footer-right
+          h2
+          ul>li*2
+          ul>li
+          .app>img*2
+      .footer-bottom
+        .footer-left
+          .logo>img
+          .info-top>a
+            .info-bottom>p
+        .footer-right
+          .sns>img*2
+          select.site
+
+
