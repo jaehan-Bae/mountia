@@ -69,6 +69,7 @@ header {
 }
 .header-contents {
   overflow: hidden;
+  padding: 8px 0px;
 }
 .header-left {}
 .logo {
@@ -80,6 +81,9 @@ header {
 }
 .header-right {
   margin-top: 15px;
+}
+.info {
+  padding: 5px 0px;
 }
 .info-btn {
   margin-right: 180px;
@@ -110,7 +114,7 @@ header {
 }
 .info-btn input::placeholder {
   float: right;
-  padding: 8px;
+  padding: 0px 8px;
 }
 .gnb {
   background-color: gray;
@@ -404,6 +408,7 @@ header {
 }
 .footer-content li:hover {
   cursor: pointer;
+  text-decoration: underline;
 }
 .footer-top {
   overflow: hidden;
