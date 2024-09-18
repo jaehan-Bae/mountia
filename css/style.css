@@ -166,8 +166,10 @@ header {
 .item-top {
   overflow: hidden;
 }
-.item-left {
+.item-left,
+.style-left {
   float: left;
+  padding-right: 25px;
 }
 .item-head {
   padding-bottom: 10px;
@@ -191,11 +193,7 @@ header {
   color: darkorange;
   text-decoration: underline;
 }
-.item-right {
-  float: left;
-}
 .item-contents {
-  margin-left: 30px;
 }
 .item-con {
   display: inline-block;
@@ -258,9 +256,6 @@ header {
 }
 .style-top {
   overflow: hidden;
-}
-.style-top > div {
-  float: left;
 }
 .style-left {
   width: 14%;
